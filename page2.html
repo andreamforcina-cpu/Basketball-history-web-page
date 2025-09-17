@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
-    <title>Famous Basketball Players</title> <!-- Title for this page -->
+    <title>Famous Basketball Players</title>
 </head>
 <body>
 
-<!-- Header of the page -->
+<!-- Header -->
 <header>
     <h1>Famous Basketball Players</h1>
 </header>
 
-<!-- Main content of the page -->
+<!-- Main Content -->
 <main>
     <!-- Section: Michael Jordan -->
-    <h2>Michael Jordan</h2>
-    <p>Michael Jordan is one of the greatest basketball players ever.</p>
-    <img src="images/img2.jpg" alt="Michael Jordan playing" width="300"> <!-- Image -->
+    <section class="card">
+        <h2>Michael Jordan</h2>
+        <p>Michael Jordan is one of the greatest basketball players ever.</p>
+        <img src="images/img2.jpg" alt="Michael Jordan playing" width="300">
+    </section>
 
     <!-- Section: Other Legends -->
-    <h2>Other Legends</h2>
-    <ul>
-        <li>Magic Johnson</li>
-        <li>Larry Bird</li>
-        <li>Kobe Bryant</li>
-        <li>LeBron James</li>
-    </ul>
+    <section id="legends">
+        <h2>Other Legends</h2>
+        <div class="flex-container">
+            <div class="flex-item">Magic Johnson</div>
+            <div class="flex-item">Larry Bird</div>
+            <div class="flex-item">Kobe Bryant</div>
+            <div class="flex-item">LeBron James</div>
+        </div>
+    </section>
 </main>
 
-<!-- Footer with link back to home pa ge -->
+<!-- Footer -->
 <footer>
     <p><a href="index.html">Back to Home</a></p>
 </footer>
