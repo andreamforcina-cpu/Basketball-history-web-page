@@ -1,6 +1,5 @@
-/* General Page Styling*/
 body {
-  background-color: #f4f4f4; /* Light gray background */
+  background-color: #f4f4f4; 
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -20,15 +19,31 @@ p, li {
 
 img {
   display: block;
-  margin: 10px auto; /* Center images */
+  margin: 10px auto; 
   border-radius: 8px;
 }
 
-/* Header & Footer */
 header {
   background: #222;
   color: white;
   padding: 20px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+}
+
+header nav a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
 }
 
 footer {
@@ -47,9 +62,8 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Classes (Reusable Styles) */
 .highlight {
-  background-color: #ffef99; /* Yellow highlight */
+  background-color: #ffef99; 
   padding: 5px;
   border-radius: 4px;
 }
@@ -64,26 +78,24 @@ footer a:hover {
   box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 }
 
-/* IDs (Unique Sections)*/
 #timeline {
-  background: #e6f7ff; /* Light blue */
+  background: #e6f7ff; 
   padding: 20px;
   border-left: 6px solid #0077cc;
 }
 
 #legends {
-  background: #fff0f5; /* Light pink */
+  background: #fff0f5; 
   padding: 20px;
   border-left: 6px solid #cc0077;
 }
 
-/* Flexbox Layout*/
 .flex-container {
   display: flex;
   gap: 20px;
   justify-content: center;
   margin: 20px;
-  flex-wrap: wrap; /* Wrap on smaller screens */
+  flex-wrap: wrap; 
 }
 
 .flex-item {
@@ -94,4 +106,27 @@ footer a:hover {
   text-align: center;
   border-radius: 8px;
   box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ✅ Responsive design */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+    padding: 5px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 90%;
+    height: auto;
+  }
 }
