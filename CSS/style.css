@@ -1,132 +1,41 @@
 body {
   background-color: #f4f4f4; 
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
   color: #333;
   line-height: 1.6;
 }
 
 h1, h2 {
-  text-align: center;
   color: #222;
 }
 
-p, li {
-  font-size: 1rem;
-  margin: 10px 0;
-}
-
-img {
-  display: block;
-  margin: 10px auto; 
-  border-radius: 8px;
-}
-
-header {
-  background: #222;
-  color: white;
-  padding: 20px;
-}
-
-header nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  gap: 15px;
-  padding: 0;
-}
-
-header nav a {
-  color: #ffcc00;
-  text-decoration: none;
-}
-
-header nav a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  background: #444;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
-
-footer a {
-  color: #ffcc00;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
+/* ✅ Your highlight style */
 .highlight {
   background-color: #ffef99; 
   padding: 5px;
   border-radius: 4px;
 }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin: 15px auto;
-  max-width: 600px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-}
-
+/* ✅ Section themes */
 #timeline {
   background: #e6f7ff; 
-  padding: 20px;
   border-left: 6px solid #0077cc;
 }
 
 #legends {
   background: #fff0f5; 
-  padding: 20px;
   border-left: 6px solid #cc0077;
 }
 
-.flex-container {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin: 20px;
-  flex-wrap: wrap; 
-}
-
-.flex-item {
-  flex: 1;
-  min-width: 200px;
-  background: #fff;
-  padding: 15px;
-  text-align: center;
+/* ✅ Images */
+img {
   border-radius: 8px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 }
 
-/* ✅ Responsive design */
+/* ✅ Responsive tweaks */
 @media (max-width: 768px) {
   body {
     font-size: 0.95rem;
     padding: 5px;
-  }
-
-  header nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .flex-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  img {
-    width: 90%;
-    height: auto; 
   }
 }
