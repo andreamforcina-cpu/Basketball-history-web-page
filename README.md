@@ -9,7 +9,7 @@ The project explores:
 
 ---
 
-# 🚀 Features
+# Features
 
 - Responsive design
 - Premium dark UI
@@ -22,7 +22,7 @@ The project explores:
 
 ---
 
-# 🛠 Technologies Used
+# Technologies Used
 
 - HTML5
 - CSS3
