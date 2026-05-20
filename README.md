@@ -1,5 +1,4 @@
 # Basketball-history-web-page
-# 🏀 Basketball History Web Page
 
 A modern and responsive basketball website created using HTML5, CSS3, Bootstrap 5, and GitHub Pages.
 
