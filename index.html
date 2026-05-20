@@ -1,69 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Bootstrap CSS CDN -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>History of Basketball</title>
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>History of Basketball</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
 
-<header class="bg-dark text-white p-3">
-    <h1 class="text-center">History of Basketball</h1>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container justify-content-center">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link text-warning" href="index.html">Home - History</a></li>
-                <li class="nav-item"><a class="nav-link text-warning" href="page2.html">Famous Players</a></li>
-            </ul>
-        </div>
-    </nav>
-</header> 
+    <!-- HEADER -->
+    <header class="bg-dark text-white p-3 shadow">
 
-<main class="container my-4">
+        <h1 class="text-center">History of Basketball</h1>
 
-    <section class="card mb-4 shadow-sm">
-        <div class="card-body">
-            <h2 class="card-title text-center">How Basketball Started</h2>
-            <p>Basketball was invented in 1891 by James Naismith in Massachusetts.</p>
-            <p class="highlight">He used a soccer ball and peach baskets for the first game.</p>
-            <img src="images/img1.jpg" class="img-fluid rounded mx-auto d-block" alt="Historical black-and-white photo of an early basketball game with players shooting into peach baskets">
-        </div>
-    </section>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container justify-content-center">
 
-    <section class="card mb-4 shadow-sm">
-        <div class="card-body">
-            <h2 class="card-title text-center">Important Moments</h2>
-            <ul>
-                <li class="highlight">1891 - Basketball invented</li>
-                <li>1936 - Basketball becomes an Olympic sport</li>
-                <li>1946 - NBA founded</li>
-            </ul>
-        </div>
-    </section>
+                <ul class="navbar-nav">
 
-    <section id="timeline" class="p-4 rounded">
-        <h2 class="text-center mb-3">Timeline</h2>
-        <div class="row g-3">
-            <div class="col-md-4"><div class="p-3 bg-white rounded shadow-sm text-center">1891 - First game</div></div>
-            <div class="col-md-4"><div class="p-3 bg-white rounded shadow-sm text-center">1979 - 3-point line introduced</div></div>
-            <div class="col-md-4"><div class="p-3 bg-white rounded shadow-sm text-center">1980s - Basketball goes global</div></div>
-        </div>
-    </section>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="index.html">
+                            Home
+                        </a>
+                    </li>
 
-</main>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="page2.html">
+                            Famous Players
+                        </a>
+                    </li>
 
-<footer class="bg-secondary text-white text-center p-3">
-    <p><a href="page2.html" class="btn btn-warning">Continue learning about basketball legends</a></p>
-</footer>
+                </ul>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- MAIN -->
+    <main class="container my-5">
+
+        <!-- INTRO -->
+        <section class="card shadow-lg mb-5">
+
+            <div class="card-body text-center">
+
+                <h2>How Basketball Started</h2>
+
+                <p>
+                    Basketball was invented in 1891 by James Naismith in Massachusetts.
+                </p>
+
+                <p class="highlight">
+                    The first games used peach baskets and a soccer ball.
+                </p>
+
+                <img src="images/img1.jpg"
+     class="img-fluid hero-image"
+     alt="Old basketball game">
+
+            </div>
+
+        </section>
+
+        <!-- IMPORTANT MOMENTS -->
+        <section class="card shadow-lg mb-5">
+
+            <div class="card-body">
+
+                <h2 class="text-center mb-4">
+                    Important Moments
+                </h2>
+
+                <ul class="list-group">
+
+                    <li class="list-group-item">
+                        1891 — Basketball invented
+                    </li>
+
+                    <li class="list-group-item">
+                        1936 — Basketball becomes an Olympic sport
+                    </li>
+
+                    <li class="list-group-item">
+                        1946 — NBA founded
+                    </li>
+
+                    <li class="list-group-item">
+                        1979 — 3-point line introduced
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- TIMELINE -->
+        <section id="timeline" class="p-5 rounded shadow-lg">
+
+            <h2 class="text-center mb-4">
+                Basketball Timeline
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="timeline-box">
+                        1891 — First Basketball Game
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="timeline-box">
+                        1946 — NBA Created
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="timeline-box">
+                        1980s — Basketball Goes Global
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+
+        <p>
+            Learn more about legendary basketball players
+        </p>
+
+        <a href="page2.html" class="btn btn-warning">
+            Famous Players
+        </a>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-</html>
